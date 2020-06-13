@@ -1,0 +1,10 @@
+.navbar {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    width: 3%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
