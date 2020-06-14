@@ -56,10 +56,10 @@
 /* Navigation Bar Done! */
 
 
-/* Navigation Bar Done! */
+/* -------------------- */
 
 
-/* Navigation Bar Done! */
+/* Now The Page Itself! */
 
 .c-logo {
     border-radius: 50%;
@@ -85,8 +85,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 75%;
+    max-width: 80%;
     margin: auto;
+    height: 75%;
 }
 
 .firstHalf {
@@ -101,4 +102,32 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+/* Page Done! */
+
+
+/* Now, the buttons! */
+
+.buttons button {
+    background-color: tomato;
+    opacity: 0.6;
+    border: none;
+    color: white;
+    font-family: monospace;
+    padding: 8px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.buttons button:hover {
+    opacity: 1;
+}
+
+.buttons button:active {
+    background-color: pink;
 }
