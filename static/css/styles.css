@@ -1,135 +1,131 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px;
 }
 
 #nav-logo {
-    width: 50px;
-    border-radius: 50%;
-    border: 2px solid transparent;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid transparent;
 }
 
 #nav-logo:hover {
-    border: 2px solid gray;
+  border: 2px solid gray;
 }
 
 .navbar {
-    background-color: transparent;
-    /* background-image: url("../img/bg.jpg"); */
-    /* background-position: top; */
-    /* background-size: cover; */
+  background-color: transparent;
+  /* background-image: url("../img/bg.jpg"); */
+  /* background-position: top; */
+  /* background-size: cover; */
 }
 
 .navbar-items {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-items li {
-    list-style: none;
-    float: left;
+  list-style: none;
+  float: left;
 }
 
 .navbar-items li a {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 18px;
-    padding: 16px 45px;
-    margin-left: 1px;
-    display: block;
-    text-decoration: none;
-    color: white;
-    border-bottom: 2px solid transparent;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  padding: 16px 45px;
+  margin-left: 1px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid transparent;
 }
 
 .navbar-items li a:hover {
-    border-bottom: 2px solid white;
+  border-bottom: 2px solid white;
 }
-
 
 /* Navigation Bar Done! */
 
-
 /* -------------------- */
-
 
 /* Now The Page Itself! */
 
 .c-logo {
-    border-radius: 50%;
-    max-width: 100%;
-    height: auto;
-    width: 70%;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  width: 70%;
 }
 
 body {
-    background: rgba(0, 0, 0, 0.7) url(../img/bg.jpg);
-    background-size: cover;
-    background-blend-mode: darken;
-    overflow: hidden;
+  background: rgba(0, 0, 0, 0.7) url(../img/bg.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+  overflow: hidden;
 }
 
 .page {
-    height: 100vh;
+  height: 100vh;
 }
 
 .box-main {
-    font-family: monospace;
-    font-size: large;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 80%;
-    margin: auto;
-    height: 75%;
+  font-family: monospace;
+  font-size: large;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin: auto;
+  height: 75%;
 }
 
 .firstHalf {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .secondHalf {
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
 /* Page Done! */
-
 
 /* Now, the buttons! */
 
 .buttons button {
-    background-color: tomato;
-    opacity: 0.6;
-    border: none;
-    color: white;
-    font-family: monospace;
-    padding: 8px 13px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    outline: none;
-    transition: 0.3s;
+  background-color: tomato;
+  opacity: 0.6;
+  border: none;
+  color: white;
+  font-family: monospace;
+  padding: 8px 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
 }
 
 .buttons button:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .buttons button:active {
-    background-color: pink;
+  background-color: pink;
 }
