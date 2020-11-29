@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block head %}
+<title>Home - Frick Schools</title>
+{% endblock %}
+<!------------------------------------>
+{% block body %}
+<div class="page">
+    <div class="box-main">
+        <div class="firstHalf">
+            <p>
+                In this world of 7 billion people, we neeed to
+                educate all 7 billion of them! We are proud to say
+                that the future of education is nowhere!
+            </p>
+            <div class="buttons">
+                <form action="/" method="POST">
+                    <button type="submit" value="oneF" name="F">
+                        Give 1 Fuck!
+                    </button>
+                    <button type="submit" value="hundredF" name="F">
+                        Give 100 Fucks!
+                    </button>
+                </form>
+            </div>
+            <p>{{content}} Fucks Given!</p>
+        </div>
+        <div class="secondHalf">
+            <img src="../static/img/logo.jpg" alt="Middle Finger" class="c-logo" />
+        </div>
+    </div>
+</div>
+{% endblock %}

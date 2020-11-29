@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/css/styles.css" />
+    {% block head %}{% endblock %}
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <ul class="navbar-items">
+                <div class="logo">
+                    <a href="/"><img src="static/img/logo.jpg" alt="Middle Finger" id="nav-logo" /></a>
+                </div>
+                <li><a href="/" class="navbar-link">Home</a></li>
+                <li><a href="#about" class="navbar-link">About</a></li>
+                <li><a href="#contact" class="navbar-link">Contact</a></li>
+            </ul>
+        </div>
+        {% block body %}{% endblock %}
+    </div>
+</body>
+
+</html>

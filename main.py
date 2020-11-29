@@ -15,7 +15,7 @@ def home():
             data += 100
 
     print(f"Value: {data}")
-    return render_template("index.html", content=data)
+    return render_template("homepage.html", content=data)
     
 @app.route("/home")
 def homePage():
